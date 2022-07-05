@@ -21,3 +21,9 @@ DimTable
 | project name, timeprofile, details
 | where surname in ('Cena')
 ```
+
+Group by, aggregate
+
+```
+| summarize AccountName=max(AccountName) by user
+```
