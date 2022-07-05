@@ -17,4 +17,5 @@ Join
 DimTable
 | join FactTable on name
 | project name, timeprofile, details
+| where surname in ('Cena')
 ```
